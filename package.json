@@ -1,0 +1,20 @@
+{
+  "name": "javascript-coffeescript-class-interop",
+  "version": "1.0.0",
+  "description": "Do JavaScript classes and CoffeeScript classes play nicely together?",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "2016+ Bevry Pty Ltd <us@bevry.me> (https://bevry.me)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-register": "^6.5.2",
+    "coffee-script": "^1.10.0"
+  },
+  "devDependencies": {
+    "assert-helpers": "^4.1.0",
+    "joe": "^1.6.0",
+    "joe-reporter-console": "^1.2.1"
+  }
+}
