@@ -1,4 +1,4 @@
-# JavaScript and CoffeeScript Classes Interopability
+# JavaScript and CoffeeScript Classes Interoperability
 
 ## Get the results
 
