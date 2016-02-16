@@ -1,7 +1,5 @@
 module.exports = function () {
-	return class BaseClass {
-		constructor (greeting) {
-			this.greeting = greeting || 'hi'
-		}
+	return function BaseClass (greeting) {
+		this.greeting = greeting || 'hi'
 	}
 }

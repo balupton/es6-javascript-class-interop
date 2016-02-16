@@ -1,8 +1,8 @@
 module.exports = function (BaseClass) {
-	return class NewClass extends BaseClass {
-		constructor (greeting, name) {
-			super(greeting || 'hello')
-			this.name = name
-		}
+	function NewClass (greeting, name) {
+	    BaseClass.call(this, greeting || 'hello')
+		this.name = name
 	}
+	NewClass.prototype = Object.create(BaseClass.prototype)
+	return NewClass
 }
