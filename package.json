@@ -4,7 +4,7 @@
   "description": "Do JavaScript classes and CoffeeScript classes play nicely together?",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node --harmony index.js"
   },
   "author": "2016+ Bevry Pty Ltd <us@bevry.me> (https://bevry.me)",
   "license": "MIT",
