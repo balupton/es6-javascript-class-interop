@@ -9,7 +9,7 @@
 ## What do the results say?
 
 - ES6 classes can extend ES5 and CoffeeScript classes
-- CoffeeScript can extend ES5 classes, but CoffeeScript cannot extend ES6 classes
+- CoffeeScript can extend ES5 classes, but [CoffeeScript cannot extend ES6 classes](https://github.com/jashkenas/coffeescript/issues/4208)
 - ES5 can extend CoffeeScript classes, but ES5 cannot extend ES6 classes
 
 ```
