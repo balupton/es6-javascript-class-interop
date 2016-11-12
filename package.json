@@ -4,7 +4,7 @@
   "description": "Do JavaScript classes and CoffeeScript classes play nicely together?",
   "main": "index.js",
   "scripts": {
-    "test": "node --harmony index.js"
+    "test": "node --harmony index.js --joe-reporter=console"
   },
   "author": "2016+ Bevry Pty Ltd <us@bevry.me> (https://bevry.me)",
   "license": "MIT",
@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "assert-helpers": "^4.1.0",
-    "joe": "^1.6.0",
-    "joe-reporter-console": "^1.2.1"
+    "joe": "^2.0.2",
+    "joe-reporter-console": "^2.0.1"
   }
 }
