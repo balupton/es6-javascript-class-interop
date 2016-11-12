@@ -30,7 +30,7 @@ const types = {
 const combinations = []
 
 require('joe').suite('classes interop', function(suite, test) {
-	this.setConfig({onError: 'ignore'})
+	this.setConfig({abortOnError: false})
 
 	for ( const typeA in types ) {
 		for ( const typeB in types ) {
